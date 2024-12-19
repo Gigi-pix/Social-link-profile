@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 8px;
+    border: 2px solid;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.profile{
+    background-color:  hsl(0, 0%, 20%);
+    margin: 20px auto;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px auto;
+
+}
+
+.profile > a{
+    color:hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    font-style: bold;
+    
+    
+    
+}
+
+h2{
+    color:hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+img{
+    border-radius: 100px 100px;
+    margin:auto;
+}
+
+h1{
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+p{
+    color:hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.attribution { 
+    font-size: 11px;
+     text-align: center; 
+     margin: auto;
+     color: white;
+     margin-left: 50px;
+    }
+    
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.profile:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    
+}
+
+.profile a:hover {
+    color: black;
+}
+
+.profile:hover a{
+    color: black;
+}
+
+.profile a:active {
+    color: black;
+}
+
+@media screen and (min-width:375) {
+   body{
+    font-size: 10px;
+   }   
+
+   .container{
+    width: 80%;
+    padding: 15px;
+   }
+
+   h1, h2, p {
+    text-align: center;
+   }
+
+   img{
+    width:60%;
+    height: auto;
+   }
+
+   .profile{
+    margin-bottom: 10px;
+   }
+}
+
+@media screen and (max-width:1440px) {
+    body{
+        font-size: 14px;
+    }
+
+    .container{
+        width:120px;
+        padding: 15px;
+    }
+
+    h1, h2, p {
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .profile {
+        margin-bottom: 20px auto;
+    }
+}
